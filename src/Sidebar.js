@@ -11,7 +11,9 @@ function Sidebar() {
     return (
         <div className="sidebar_body">
             <div className="sidebar_header">
-                <Avatar src="https://thumbs.dreamstime.com/z/portrait-young-man-beard-hair-style-male-avatar-vector-portrait-young-man-beard-hair-style-male-avatar-105082137.jpg"/>
+                <div className="avatar">
+                    <Avatar src="https://picsum.photos/id/1005/200/300"/>
+                </div>
                 <div className="sidebar_headerRight">
                     <IconButton>
                         <DonutLargeIcon />
@@ -33,9 +35,16 @@ function Sidebar() {
             </div> 
 
             <div className="sidebar_chats">
-                <SidebarChat />
-                <SidebarChat />
-                <SidebarChat />
+                <SidebarChat name="INU" last_msg="Hooman.....walk" time="now"/>
+                <SidebarChat name="Choti" last_msg="Seete kahan ho" time="5:34 am" />
+                <SidebarChat name="Utkarss" last_msg="Hello World" time="yesterday"/>
+                <SidebarChat name="Helmet" last_msg="Aise kaise bro" time="yesterday"/>
+                <SidebarChat name="Ayuss" last_msg="#all_lives_matter" time="yesterday"/>
+                <SidebarChat name="Balika Vadhu" last_msg="Ungli ??" time="2d"/>
+                <SidebarChat name="Abhishek" last_msg="44" time="3d"/>
+                <SidebarChat name="Rahul" last_msg="Fake hai ji" time="4d"/>
+                <SidebarChat name="Anirudh" last_msg="J**T" time="9/5/21"/>
+                <SidebarChat name="Vishal" last_msg="Bihari" time="9/6/21"/>
             </div>
 
         </div>

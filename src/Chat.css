@@ -1,28 +1,34 @@
 .chat{
     display: flex;
     flex-direction: column;
-    flex: 0.65;
+    flex: 0.70;
 }
 
 .chat_header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgray;
-    padding: 20px;
+    padding: 5px;
+}
+
+.avatar {
+    padding: 5px;
 }
 
 .chat_headerInfo {
     flex: 1;
-    padding: 20px;
+    margin-left: 15px;
 }
 
 .chat_headerInfo > h3 {
     margin-bottom: 3px;
-    font-weight: 500;
+    font-size: small;
+    font-weight: normal;
 }
 
 .chat_headerInfo > p{
     color: grey;
+    font-size: xx-small;
 }
 
 .chat_body {
@@ -37,24 +43,24 @@
 
 .chat_message {
     position: relative;
-    font-size: 16;
+    font-size: 15px;
     padding: 10px;
     width: fit-content;
     border-radius: 10px;
     background-color: #ffffff;
     margin-bottom: 30px;
+    color: #18191A;
 }
 
 .chat_timestamp {
-    margin-left: 10px;
-    font-size: xx-small;
+    margin-left: 20px;
+    font-size: 11px;
+    color: gray;
 }
 
 .chat_name {
-    position: absolute;
-    top: -15px;
     font-size: xx-small;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .chat_reciever {
@@ -68,6 +74,15 @@
     align-items: center;
     height: 62px;
     border-top: 1px solid lightgray;
+}
+
+.insert_icon {
+    padding-right: 0px;
+}
+
+.attach_icon{
+    transform: rotate(45deg);
+    padding-left: 0px;
 }
 
 .chat_footer > form {

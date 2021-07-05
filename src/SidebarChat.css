@@ -10,10 +10,21 @@
 }
 
 .sidebarChat_info {
-    margin-left: 15px;
+    flex: 1;
+    margin-left: 20px;
 }
 
 .sidebarChat_info > h2 {
     font-size: 16px;
-    margin: 8px;
+    font-weight: normal;
+}
+
+.sidebarChat_info > p {
+    font-size: 14px;
+    color: grey;
+}
+
+.sidebar_time > p{
+    font-size: 12px;
+    color: grey;
 }

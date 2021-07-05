@@ -1,13 +1,13 @@
 .sidebar_body{
     display: flex;
     flex-direction: column;
-    flex: 0.35;
+    flex: 0.30;
 }
 
 .sidebar_header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
     border-right: 1px solid lightgray;
     min-width: 10vw;
 }
@@ -48,5 +48,10 @@
 .sidebar_chats {
     flex: 1;
     background-color: white;
-    overflow: scroll;
+    overflow-y: auto;
+}
+
+.avatar {
+    padding: 5px;
+    margin-left: 5px;
 }
